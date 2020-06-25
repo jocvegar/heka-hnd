@@ -209,7 +209,17 @@
 </template>
 
 <script>
-export default {};
+export default {
+  // mounted() {
+  //   this.$loadScript("../../public/js/jquery.min.js");
+  //   this.$loadScript("../../public/js/jquery.scrollex.min.js");
+  //   this.$loadScript("../../public/js/jquery.scrolly.min.js");
+  //   this.$loadScript("../../public/js/browser.min.js");
+  //   this.$loadScript("../../public/js/breakpoints.min.js");
+  //   this.$loadScript("../../public/js/util.js");
+  //   this.$loadScript("../../public/js/main.js");
+  // },
+};
 </script>
 
 <style></style>
