@@ -4,6 +4,7 @@ import App from "./App.vue";
 import "./registerServiceWorker";
 import router from "./router";
 import VueFirestore from "vue-firestore";
+import "./assets/css/app.css";
 
 Vue.config.productionTip = false;
 
