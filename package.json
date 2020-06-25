@@ -31,5 +31,14 @@
     "sass": "^1.26.5",
     "sass-loader": "^8.0.2",
     "vue-template-compiler": "^2.6.11"
+  },
+  "vue": {
+    "pwa": {
+      "name": "Heka HND",
+      "short_name": "HEKA",
+      "theme_color": "#109e9e",
+      "background_color": "#109e9e",
+      "appleMobileWebAppCapable": "yes"
+    }
   }
 }
