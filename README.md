@@ -1,24 +1,5 @@
 # heka-hnd
 
-## Project setup
-```
-npm install
-```
+## Preview Me
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+[Heka HND](https://heka-hnd.web.app/)
