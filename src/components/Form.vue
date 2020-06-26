@@ -79,11 +79,7 @@ export default {
   },
   methods: {
     notOk() {
-      if (
-        this.submitForm.name.length != 0 &&
-        this.checkEmailFormatt() &&
-        this.submitForm.message.length != 0
-      ) {
+      if (this.submitForm.name.length != 0 && this.checkEmailFormatt()) {
         return false;
       } else {
         return true;
