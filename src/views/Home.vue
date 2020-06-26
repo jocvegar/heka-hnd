@@ -201,7 +201,14 @@
           <div class="container">
             <ul class="copyright">
               <li>&copy; 2020</li>
-              <li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+              <li>
+                Queres Ver Más?
+                <a
+                  href="https://flask-portfolio-jv.herokuapp.com/"
+                  target="_blank"
+                  >Portfolio</a
+                >
+              </li>
             </ul>
           </div>
         </section>
@@ -211,7 +218,13 @@
 </template>
 
 <script>
-export default {};
+export default {
+  data() {
+    return {
+      title: "HOLA",
+    };
+  },
+};
 </script>
 
 <style></style>
