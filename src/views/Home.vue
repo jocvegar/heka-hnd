@@ -2,8 +2,10 @@
   <div>
     <section id="header">
       <header>
-        <span class="image avatar"><img src="images/avatar.jpg" alt=""/></span>
-        <h1 id="logo"><a href="#">Willis Corto</a></h1>
+        <span class="image avatar"
+          ><img src="@/assets/jose.jpg" alt="Heka"
+        /></span>
+        <h1 id="logo"><a href="#">HEKA HND</a></h1>
         <p>
           I got reprogrammed by a rogue AI<br />
           and now I'm totally cray
@@ -53,11 +55,11 @@
         <!-- One -->
         <section id="one">
           <div class="image main" data-position="center">
-            <img src="images/banner.jpg" alt="" />
+            <img src="@/assets/hero.jpg" alt="heka-hnd" />
           </div>
           <div class="container">
             <header class="major">
-              <h2>Read Only</h2>
+              <h2>HEKA HND</h2>
               <p>
                 Just an incredibly simple responsive site<br />
                 template freebie by <a href="http://html5up.net">HTML5 UP</a>.
@@ -198,7 +200,7 @@
         <section id="footer">
           <div class="container">
             <ul class="copyright">
-              <li>&copy; Untitled. All rights reserved.</li>
+              <li>&copy; 2020</li>
               <li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
             </ul>
           </div>
@@ -209,17 +211,7 @@
 </template>
 
 <script>
-export default {
-  // mounted() {
-  //   this.$loadScript("../../public/js/jquery.min.js");
-  //   this.$loadScript("../../public/js/jquery.scrollex.min.js");
-  //   this.$loadScript("../../public/js/jquery.scrolly.min.js");
-  //   this.$loadScript("../../public/js/browser.min.js");
-  //   this.$loadScript("../../public/js/breakpoints.min.js");
-  //   this.$loadScript("../../public/js/util.js");
-  //   this.$loadScript("../../public/js/main.js");
-  // },
-};
+export default {};
 </script>
 
 <style></style>
