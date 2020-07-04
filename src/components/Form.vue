@@ -16,7 +16,7 @@
             type="text"
             name="name"
             id="name"
-            placeholder="Name"
+            placeholder="Nombre"
           />
         </div>
         <div class="col-6 col-12-xsmall">
@@ -25,7 +25,7 @@
             type="email"
             name="email"
             id="email"
-            placeholder="Email"
+            placeholder="Correo"
           />
         </div>
         <div class="col-12">
@@ -33,7 +33,7 @@
             v-model.trim="submitForm.message"
             name="message"
             id="message"
-            placeholder="Message"
+            placeholder="Mensaje"
             rows="6"
           ></textarea>
         </div>

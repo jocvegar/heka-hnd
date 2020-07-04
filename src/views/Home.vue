@@ -5,7 +5,7 @@
         <span class="image avatar"
           ><img src="@/assets/jose.jpg" alt="Heka"
         /></span>
-        <h1 id="logo"><a href="#">HEKA HND</a></h1>
+        <h1 id="logo"><a @click="scrollToHome">HEKA HND</a></h1>
         <p>
           I got reprogrammed by a rogue AI<br />
           and now I'm totally cray
@@ -13,10 +13,10 @@
       </header>
       <nav id="nav">
         <ul>
-          <li><a href="#one" class="active">About</a></li>
-          <li><a href="#two">Things I Can Do</a></li>
-          <li><a href="#three">A Few Accomplishments</a></li>
-          <li><a href="#four">Contact</a></li>
+          <li><a class="active">Acerca</a></li>
+          <li><a href="#hago">¿Qué Hago?</a></li>
+          <li><a href="#ejemplos">Algunos Ejemplos</a></li>
+          <li><a href="#contacto">Contacto</a></li>
         </ul>
       </nav>
       <footer>
@@ -53,7 +53,7 @@
       <!-- Main -->
       <div id="main">
         <!-- One -->
-        <section id="one">
+        <section id="acerca">
           <div class="image main" data-position="center">
             <img src="@/assets/hero.jpg" alt="heka-hnd" />
           </div>
@@ -66,23 +66,26 @@
               </p>
             </header>
             <p>
-              Faucibus sed lobortis aliquam lorem blandit. Lorem eu nunc metus
-              col. Commodo id in arcu ante lorem ipsum sed accumsan erat
-              praesent faucibus commodo ac mi lacus. Adipiscing mi ac commodo.
-              Vis aliquet tortor ultricies non ante erat nunc integer eu ante
-              ornare amet commetus vestibulum blandit integer in curae ac
-              faucibus integer non. Adipiscing cubilia elementum.
+              Powerslide salad grind pressure flip Tommy Guerrero wax nosegrind
+              skate key. Fast plant stoked boneless body varial cab flip method
+              air. Mike Taylor air ledge slap maxwell 720 nose bump nosebone.
+              Sick hardware Japan air hand rail boardslide downhill. Death box
+              invert sponsored crooked grind manual Blind rad. Stalefish dude
+              270 frigid air mongo transition. Steps g-turn bone air Thrasher
+              baseplate hang-up casper slide. Hard flip bone air betty ho-ho
+              Memory Screen dude opposite footed. Flypaper kickflip kick-nose
+              Tracker pogo death box. Cess slide salad grind hurricane frigid
+              air hand rail roll-in. Roll-in fakie kickturn axle set Bullet 66
+              tailslide concave.
             </p>
           </div>
         </section>
         <!-- Two -->
-        <section id="two">
+        <section id="hago">
           <div class="container">
-            <h3>Things I Can Do</h3>
+            <h3>Te Puedo Ayudar</h3>
             <p>
-              Integer eu ante ornare amet commetus vestibulum blandit integer in
-              curae ac faucibus integer non. Adipiscing cubilia elementum
-              integer lorem ipsum dolor sit amet.
+              Aplicaciones y páginas web modernas.
             </p>
             <ul class="feature-icons">
               <li class="icon solid fa-code">Write all the code</li>
@@ -95,7 +98,7 @@
           </div>
         </section>
         <!-- Three -->
-        <section id="three">
+        <section id="ejemplos">
           <div class="container">
             <h3>A Few Accomplishments</h3>
             <p>
@@ -111,8 +114,11 @@
                 <div class="inner">
                   <h4>Possibly broke spacetime</h4>
                   <p>
-                    Integer eu ante ornare amet commetus vestibulum blandit
-                    integer in curae ac faucibus integer adipiscing ornare amet.
+                    Skate ipsum dolor sit amet, S.K.A.T.E. carve bruised heel
+                    backside slob air. Birdie gnar bucket ollie north carve.
+                    50-50 bluntslide front foot impossible spine. Bluntslide
+                    yeah air ho-ho. Pivot death box nose slide launch ramp John
+                    Grigley. Acid drop snake crail grab alley oop Rector.
                   </p>
                 </div>
               </article>
@@ -123,8 +129,11 @@
                 <div class="inner">
                   <h4>Terraformed a small moon</h4>
                   <p>
-                    Integer eu ante ornare amet commetus vestibulum blandit
-                    integer in curae ac faucibus integer adipiscing ornare amet.
+                    Skate ipsum dolor sit amet, S.K.A.T.E. carve bruised heel
+                    backside slob air. Birdie gnar bucket ollie north carve.
+                    50-50 bluntslide front foot impossible spine. Bluntslide
+                    yeah air ho-ho. Pivot death box nose slide launch ramp John
+                    Grigley. Acid drop snake crail grab alley oop Rector.
                   </p>
                 </div>
               </article>
@@ -135,8 +144,11 @@
                 <div class="inner">
                   <h4>Snapped dark matter in the wild</h4>
                   <p>
-                    Integer eu ante ornare amet commetus vestibulum blandit
-                    integer in curae ac faucibus integer adipiscing ornare amet.
+                    Skate ipsum dolor sit amet, S.K.A.T.E. carve bruised heel
+                    backside slob air. Birdie gnar bucket ollie north carve.
+                    50-50 bluntslide front foot impossible spine. Bluntslide
+                    yeah air ho-ho. Pivot death box nose slide launch ramp John
+                    Grigley. Acid drop snake crail grab alley oop Rector.
                   </p>
                 </div>
               </article>
@@ -144,13 +156,12 @@
           </div>
         </section>
         <!-- Four -->
-        <section id="four">
+        <section id="contacto">
           <div class="container">
-            <h3>Contact Me</h3>
+            <h3>Contacto</h3>
             <p>
-              Integer eu ante ornare amet commetus vestibulum blandit integer in
-              curae ac faucibus integer non. Adipiscing cubilia elementum
-              integer. Integer eu ante ornare amet commetus.
+              Si tienes cualquier pregunta, comentario o simplemente quieres
+              decir hola mandame un mensaje y pronto te respondo!
             </p>
             <Form />
           </div>
@@ -180,16 +191,16 @@ import Form from "@/components/Form.vue";
 
 export default {
   components: {
-    Form,
+    Form
   },
   methods: {
     scrollToHome() {
       window.scroll({
         top: 0,
         left: 0,
-        behavior: "smooth",
+        behavior: "smooth"
       });
-    },
-  },
+    }
+  }
 };
 </script>
