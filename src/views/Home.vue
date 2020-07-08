@@ -13,9 +13,9 @@
       </header>
       <nav id="nav">
         <ul>
-          <li><a class="active">Acerca</a></li>
+          <li><a href="#acerca" class="active">Acerca</a></li>
           <li><a href="#hago">¿Qué Hago?</a></li>
-          <li><a href="#ejemplos">Algunos Ejemplos</a></li>
+          <li><a href="#ejemplos">Ejemplos</a></li>
           <li><a href="#contacto">Contacto</a></li>
         </ul>
       </nav>
