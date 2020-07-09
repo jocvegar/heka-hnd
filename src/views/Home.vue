@@ -13,10 +13,15 @@
       </header>
       <nav id="nav">
         <ul>
-          <li><a href="#acerca" class="active">Acerca</a></li>
-          <li><a href="#hago">¿Qué Hago?</a></li>
-          <li><a href="#ejemplos">Ejemplos</a></li>
-          <li><a href="#contacto">Contacto</a></li>
+          <li
+            v-for="item in menu"
+            :key="item.id"
+            class="menu-list"
+            :class="{ active: item.id === activeProjectId }"
+            @click="setActive(item.id), scrollTo(item.name)"
+          >
+            {{ item.name }}
+          </li>
         </ul>
       </nav>
       <footer>
@@ -53,7 +58,7 @@
       <!-- Main -->
       <div id="main">
         <!-- One -->
-        <section id="acerca">
+        <section class="section" id="about">
           <div class="image main" data-position="center">
             <img src="@/assets/hero.jpg" alt="heka-hnd" />
           </div>
@@ -81,7 +86,7 @@
           </div>
         </section>
         <!-- Two -->
-        <section id="hago">
+        <section class="section" id="what-i-do">
           <div class="container">
             <h3>Te Puedo Ayudar</h3>
             <p>
@@ -98,7 +103,7 @@
           </div>
         </section>
         <!-- Three -->
-        <section id="ejemplos">
+        <section class="section" id="examples">
           <div class="container">
             <h3>A Few Accomplishments</h3>
             <p>
@@ -156,7 +161,7 @@
           </div>
         </section>
         <!-- Four -->
-        <section id="contacto">
+        <section class="section" id="contact">
           <div class="container">
             <h3>Contacto</h3>
             <p>
@@ -193,6 +198,23 @@ export default {
   components: {
     Form
   },
+  created() {
+    window.addEventListener("scroll", this.handleScroll);
+  },
+  destroyed() {
+    window.removeEventListener("scroll", this.handleScroll);
+  },
+  data() {
+    return {
+      menu: [
+        { id: 1, name: "About" },
+        { id: 2, name: "What I Do" },
+        { id: 3, name: "Examples" },
+        { id: 4, name: "Contact" }
+      ],
+      activeProjectId: 1
+    };
+  },
   methods: {
     scrollToHome() {
       window.scroll({
@@ -200,6 +222,52 @@ export default {
         left: 0,
         behavior: "smooth"
       });
+    },
+    scrollTo(element) {
+      let el = document.getElementById(
+        element
+          .toLowerCase()
+          .split(" ")
+          .join("-")
+      );
+      if (el) {
+        el.scrollIntoView({
+          behavior: "smooth"
+        });
+      }
+    },
+    setActive(id) {
+      setTimeout(() => (this.activeProjectId = id), 1000);
+      document.body.classList.remove("header-visible");
+    },
+    handleScroll() {
+      var section = document.querySelectorAll(".section");
+      var sections = {};
+      var i = 0;
+
+      Array.prototype.forEach.call(section, function(e) {
+        sections[e.id] = e.offsetTop;
+      });
+
+      var scrollPosition =
+        document.documentElement.scrollTop || document.body.scrollTop;
+
+      for (i in sections) {
+        if (sections[i] <= scrollPosition + 10) {
+          let word = i
+            .split("-")
+            .map(
+              word =>
+                word.charAt(0).toUpperCase() + word.substr(1).toLowerCase()
+            )
+            .join(" ");
+          document.querySelector("li.active").classList.remove("active");
+          let li = [...document.querySelectorAll("li.menu-list")].filter(
+            li => li.innerText == word
+          )[0];
+          li.classList.add("active");
+        }
+      }
     }
   }
 };

@@ -2888,10 +2888,14 @@ input[type="button"]:disabled,
 #header > nav ul li {
   border-top: solid 2px #109e9e;
   display: block;
-  padding: 0;
+  padding: 0.85em 0;
 }
 
-#header > nav ul li a {
+#header li:hover {
+  cursor: pointer;
+}
+
+/* #header > nav ul li a {
   -moz-transition: none;
   -webkit-transition: none;
   -ms-transition: none;
@@ -2901,9 +2905,14 @@ input[type="button"]:disabled,
   display: block;
   padding: 0.85em 0;
   text-decoration: none;
-}
+} */
 
-#header > nav ul li a.active {
+/* #header > nav ul li a.active {
+  background: #fff;
+  color: #109e9e !important;
+} */
+
+li.active {
   background: #fff;
   color: #109e9e !important;
 }
