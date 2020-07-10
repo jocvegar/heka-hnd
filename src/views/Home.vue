@@ -7,8 +7,8 @@
         /></span>
         <h1 id="logo"><a @click="scrollToHome">HEKA HND</a></h1>
         <p>
-          I got reprogrammed by a rogue AI<br />
-          and now I'm totally cray
+          Hi, I am Jose, a web developer<br />
+          specializing in delivering awesome products!
         </p>
       </header>
       <nav id="nav">
@@ -27,28 +27,35 @@
       <footer>
         <ul class="icons">
           <li>
-            <a href="#" class="icon brands fa-twitter"
-              ><span class="label">Twitter</span></a
-            >
-          </li>
-          <li>
-            <a href="#" class="icon brands fa-facebook-f"
-              ><span class="label">Facebook</span></a
-            >
-          </li>
-          <li>
-            <a href="#" class="icon brands fa-instagram"
-              ><span class="label">Instagram</span></a
-            >
-          </li>
-          <li>
-            <a href="#" class="icon brands fa-github"
+            <a
+              href="http://github.com/jocvegar"
+              target="_blank"
+              class="icon brands fa-github"
               ><span class="label">Github</span></a
             >
           </li>
           <li>
-            <a href="#" class="icon solid fa-envelope"
+            <a
+              href="https://www.linkedin.com/in/jose-carlos-vega"
+              target="_blank"
+              class="icon brands fa-linkedin"
+              ><span class="label">LinkedIn</span></a
+            >
+          </li>
+          <li>
+            <a
+              href="mailto:jocvegar@gmail.com"
+              target="_blank"
+              class="icon solid fa-envelope"
               ><span class="label">Email</span></a
+            >
+          </li>
+          <li>
+            <a
+              href="https://twitter.com/hekahnd"
+              target="_blank"
+              class="icon brands fa-twitter"
+              ><span class="label">Twitter</span></a
             >
           </li>
         </ul>
@@ -66,39 +73,44 @@
             <header class="major">
               <h2>HEKA HND</h2>
               <p>
-                Just an incredibly simple responsive site<br />
-                template freebie by <a href="http://html5up.net">HTML5 UP</a>.
+                Let me help you build something! <br />
+                Any thing from a simple landing page, to an e-commerce site to a
+                complex app. I've got you covered.
               </p>
             </header>
             <p>
-              Powerslide salad grind pressure flip Tommy Guerrero wax nosegrind
-              skate key. Fast plant stoked boneless body varial cab flip method
-              air. Mike Taylor air ledge slap maxwell 720 nose bump nosebone.
-              Sick hardware Japan air hand rail boardslide downhill. Death box
-              invert sponsored crooked grind manual Blind rad. Stalefish dude
-              270 frigid air mongo transition. Steps g-turn bone air Thrasher
-              baseplate hang-up casper slide. Hard flip bone air betty ho-ho
-              Memory Screen dude opposite footed. Flypaper kickflip kick-nose
-              Tracker pogo death box. Cess slide salad grind hurricane frigid
-              air hand rail roll-in. Roll-in fakie kickturn axle set Bullet 66
-              tailslide concave.
+              Over the years I have learned the required tools to make a
+              succesful plataform. I am comfortable using services like
+              Braintree, Shopify, AWS, Heroku, Netlify, 11ty, Middleman, among
+              others.
+            </p>
+            <p>
+              I am also proficient an several languages such as Ruby on Rails,
+              Html, CSS, Vue, React and some Flask. I can also connect to APIs
+              or build APIs.
+            </p>
+            <p>
+              If you prefer a certain language or stack I am pretty we can make
+              it work!
             </p>
           </div>
         </section>
         <!-- Two -->
         <section class="section" id="what-i-do">
           <div class="container">
-            <h3>Te Puedo Ayudar</h3>
+            <h3>What I Do</h3>
             <p>
-              Aplicaciones y páginas web modernas.
+              Applications and amazing web sites.
             </p>
             <ul class="feature-icons">
-              <li class="icon solid fa-code">Write all the code</li>
-              <li class="icon solid fa-cubes">Stack small boxes</li>
-              <li class="icon solid fa-book">Read books and stuff</li>
-              <li class="icon solid fa-coffee">Drink much coffee</li>
-              <li class="icon solid fa-bolt">Lightning bolt</li>
-              <li class="icon solid fa-users">Shadow clone technique</li>
+              <li class="icon solid fa-code">Unique websites</li>
+              <li class="icon solid fa-mobile">Responsive design</li>
+              <li class="icon solid fa-users">Intuitive UX | UI</li>
+              <li class="icon solid fa-check">Continuous monitoring</li>
+              <li class="icon solid fa-comments">
+                Constant communication with client
+              </li>
+              <li class="icon solid fa-cubes">Unit tests</li>
             </ul>
           </div>
         </section>
@@ -107,53 +119,47 @@
           <div class="container">
             <h3>A Few Accomplishments</h3>
             <p>
-              Integer eu ante ornare amet commetus vestibulum blandit integer in
-              curae ac faucibus integer non. Adipiscing cubilia elementum
-              integer. Integer eu ante ornare amet commetus.
+              A showcase of a few accomplishments
             </p>
             <div class="features">
               <article>
-                <a href="#" class="image"
-                  ><img src="images/pic01.jpg" alt=""
+                <a href="https://safetyspot.com/" class="image"
+                  ><img src="@/assets/safety.png" alt=""
                 /></a>
                 <div class="inner">
-                  <h4>Possibly broke spacetime</h4>
+                  <h4>Safety Spot Inc.</h4>
                   <p>
-                    Skate ipsum dolor sit amet, S.K.A.T.E. carve bruised heel
-                    backside slob air. Birdie gnar bucket ollie north carve.
-                    50-50 bluntslide front foot impossible spine. Bluntslide
-                    yeah air ho-ho. Pivot death box nose slide launch ramp John
-                    Grigley. Acid drop snake crail grab alley oop Rector.
+                    An application to manage personnel information, credentials
+                    and emergency contact information from one central location.
+                    It also manages and schedules both locations and equipment,
+                    centralize e-resource storage, and grant personnel access to
+                    connected devices.
                   </p>
                 </div>
               </article>
               <article>
-                <a href="#" class="image"
-                  ><img src="images/pic02.jpg" alt=""
+                <a href="http://wan-fu.netlify.com/" class="image"
+                  ><img src="@/assets/wan.png" alt=""
                 /></a>
                 <div class="inner">
-                  <h4>Terraformed a small moon</h4>
+                  <h4>Wan Fu</h4>
                   <p>
-                    Skate ipsum dolor sit amet, S.K.A.T.E. carve bruised heel
-                    backside slob air. Birdie gnar bucket ollie north carve.
-                    50-50 bluntslide front foot impossible spine. Bluntslide
-                    yeah air ho-ho. Pivot death box nose slide launch ramp John
-                    Grigley. Acid drop snake crail grab alley oop Rector.
+                    An online site for a small family owned restaurant to
+                    display menu and showcase pictures. This site was built
+                    using Nuxt with Tailwind css hosted on Netlify.
                   </p>
                 </div>
               </article>
               <article>
-                <a href="#" class="image"
-                  ><img src="images/pic03.jpg" alt=""
+                <a href="https://memory-game-6b16f.web.app/" class="image"
+                  ><img src="@/assets/memory.png" alt=""
                 /></a>
                 <div class="inner">
-                  <h4>Snapped dark matter in the wild</h4>
+                  <h4>A Memory Game</h4>
                   <p>
-                    Skate ipsum dolor sit amet, S.K.A.T.E. carve bruised heel
-                    backside slob air. Birdie gnar bucket ollie north carve.
-                    50-50 bluntslide front foot impossible spine. Bluntslide
-                    yeah air ho-ho. Pivot death box nose slide launch ramp John
-                    Grigley. Acid drop snake crail grab alley oop Rector.
+                    A fun small game to test your memory. I have gotten up to 13
+                    digits, I need to improve! This site was built using Vue.js,
+                    Firebase authentication and hosted on Firebase.
                   </p>
                 </div>
               </article>
@@ -163,10 +169,17 @@
         <!-- Four -->
         <section class="section" id="contact">
           <div class="container">
-            <h3>Contacto</h3>
+            <h3>Contact</h3>
             <p>
-              Si tienes cualquier pregunta, comentario o simplemente quieres
-              decir hola mandame un mensaje y pronto te respondo!
+              If you have a project in mind, have a question or simply want to
+              say hi, please send me a message and I will respond ASAP!
+            </p>
+            <p>
+              Want to see more? Please visit:
+              <ul>
+                <li><a href="http://jose-vega-resume.herokuapp.com/">English resumé</a></li>
+                <li><a href="http://flask-portfolio-jv.herokuapp.com/">Spanish resumé</a></li>
+              </ul>
             </p>
             <Form />
           </div>
@@ -196,7 +209,7 @@ import Form from "@/components/Form.vue";
 
 export default {
   components: {
-    Form
+    Form,
   },
   created() {
     window.addEventListener("scroll", this.handleScroll);
@@ -210,9 +223,9 @@ export default {
         { id: 1, name: "About" },
         { id: 2, name: "What I Do" },
         { id: 3, name: "Examples" },
-        { id: 4, name: "Contact" }
+        { id: 4, name: "Contact" },
       ],
-      activeProjectId: 1
+      activeProjectId: 1,
     };
   },
   methods: {
@@ -220,7 +233,7 @@ export default {
       window.scroll({
         top: 0,
         left: 0,
-        behavior: "smooth"
+        behavior: "smooth",
       });
     },
     scrollTo(element) {
@@ -232,7 +245,7 @@ export default {
       );
       if (el) {
         el.scrollIntoView({
-          behavior: "smooth"
+          behavior: "smooth",
         });
       }
     },
@@ -257,18 +270,18 @@ export default {
           let word = i
             .split("-")
             .map(
-              word =>
+              (word) =>
                 word.charAt(0).toUpperCase() + word.substr(1).toLowerCase()
             )
             .join(" ");
           document.querySelector("li.active").classList.remove("active");
           let li = [...document.querySelectorAll("li.menu-list")].filter(
-            li => li.innerText == word
+            (li) => li.innerText == word
           )[0];
           li.classList.add("active");
         }
       }
-    }
-  }
+    },
+  },
 };
 </script>
