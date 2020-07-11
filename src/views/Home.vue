@@ -7,8 +7,8 @@
         /></span>
         <h1 id="logo"><a @click="scrollToHome">HEKA HND</a></h1>
         <p>
-          Hi, I am Jose, a web developer<br />
-          specializing in delivering awesome products!
+          Hi, my name is Jose and I am a web developer
+          specializing in delivering awesome products.
         </p>
       </header>
       <nav id="nav">
@@ -73,24 +73,23 @@
             <header class="major">
               <h2>HEKA HND</h2>
               <p>
-                Let me help you build something! <br />
-                Any thing from a simple landing page, to an e-commerce site to a
-                complex app. I've got you covered.
+                Let's build something together! <br />
+                Anything ranging from a simple landing page, to an e-commerce site to a
+                complex app -I've got you covered!
               </p>
             </header>
             <p>
-              Over the years I have learned the required tools to make a
-              succesful plataform. I am comfortable using services like
+              Over the years I have learned the required tools to develop a
+              succesful platform. I have developed projects using services like
               Braintree, Shopify, AWS, Heroku, Netlify, 11ty, Middleman, among
               others.
             </p>
             <p>
-              I am also proficient an several languages such as Ruby on Rails,
-              Html, CSS, Vue, React and some Flask. I can also connect to APIs
-              or build APIs.
+              I am also proficient in several languages and frameworks such as Ruby on Rails,
+              Html, CSS, Vue, React and Flask. I can also connect and/or build APIs.
             </p>
             <p>
-              If you prefer a certain language or stack I am pretty we can make
+              I am always interested in learning new languages so if you prefer a specific one or a different stack, we can make
               it work!
             </p>
           </div>
@@ -99,9 +98,6 @@
         <section class="section" id="what-i-do">
           <div class="container">
             <h3>What I Do</h3>
-            <p>
-              Applications and amazing web sites.
-            </p>
             <ul class="feature-icons">
               <li class="icon solid fa-code">Unique websites</li>
               <li class="icon solid fa-mobile">Responsive design</li>
@@ -117,7 +113,7 @@
         <!-- Three -->
         <section class="section" id="examples">
           <div class="container">
-            <h3>A Few Accomplishments</h3>
+            <h3>Accomplishments</h3>
             <p>
               A showcase of a few accomplishments
             </p>
@@ -146,7 +142,7 @@
                   <p>
                     An online site for a small family owned restaurant to
                     display menu and showcase pictures. This site was built
-                    using Nuxt with Tailwind css hosted on Netlify.
+                    using Nuxt with Tailwind CSS hosted on Netlify.
                   </p>
                 </div>
               </article>
@@ -157,7 +153,7 @@
                 <div class="inner">
                   <h4>A Memory Game</h4>
                   <p>
-                    A fun small game to test your memory. I have gotten up to 13
+                    A fun small game to test your memory -I have gotten up to 13
                     digits, I need to improve! This site was built using Vue.js,
                     Firebase authentication and hosted on Firebase.
                   </p>
@@ -189,9 +185,9 @@
             <ul class="copyright">
               <li>&copy; 2020</li>
               <li>
-                Queres Ver Más?
+                Want to see more?
                 <a
-                  href="https://flask-portfolio-jv.herokuapp.com/"
+                  href="http://jose-vega-resume.herokuapp.com/"
                   target="_blank"
                   >Portfolio</a
                 >

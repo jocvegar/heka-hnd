@@ -1,10 +1,10 @@
+/* eslint-disable prettier/prettier */
 <template>
   <div>
     <transition name="fade">
       <div v-if="formSubmitted" class="c-modal">
         <div class="c-container">
-          Muchas Gracias! <br />
-          Pronto le responderemos.
+          Thank you!
         </div>
       </div>
     </transition>
@@ -16,7 +16,7 @@
             type="text"
             name="name"
             id="name"
-            placeholder="Nombre"
+            placeholder="Name"
           />
         </div>
         <div class="col-6 col-12-xsmall">
@@ -25,7 +25,7 @@
             type="email"
             name="email"
             id="email"
-            placeholder="Correo"
+            placeholder="Email"
           />
         </div>
         <div class="col-12">
@@ -33,7 +33,7 @@
             v-model.trim="submitForm.message"
             name="message"
             id="message"
-            placeholder="Mensaje"
+            placeholder="Message"
             rows="6"
           ></textarea>
         </div>
@@ -108,9 +108,7 @@ export default {
           this.resetForm();
           setTimeout(() => (this.formSubmitted = false), 2000);
         })
-        .catch((err) => {
-          console.log(err);
-        });
+        .catch((err) => console.log(err));
     },
   },
 };
