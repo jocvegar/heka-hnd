@@ -81,12 +81,12 @@
             <p>
               Over the years I have learned the required tools to develop a
               succesful platform. I have developed projects using services like
-              Braintree, Shopify, AWS, Heroku, Netlify, 11ty, Middleman, among
+              Braintree, AWS, Heroku, Netlify, 11ty, Middleman, among
               others.
             </p>
             <p>
               I am also proficient in several languages and frameworks such as Ruby on Rails,
-              Html, CSS, Vue, React and Flask. I can also connect and/or build APIs.
+              Html, CSS, Vue and React. I can also connect and/or build APIs.
             </p>
             <p>
               I am always interested in learning new languages so if you prefer a specific one or a different stack, we can make
